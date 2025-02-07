@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CC1200 RPi Zero Shield")
-		(date "06-02-2025")
+		(date "7-02-2025")
 		(rev "B")
 		(company "M17 Foundation")
 		(comment 1 "Wojciech SP5WWP, Mathis DB9MAT")
@@ -4536,6 +4536,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mmdvm_hs-hat-rescue:TLV70233_SOT23-5-Regulator_Linear"
 			(pin_names
 				(offset 0.254)
@@ -6418,6 +6563,12 @@
 		(uuid "73fc7a8c-3659-47b4-a8b1-2ac34c542d78")
 	)
 	(junction
+		(at 48.26 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa0893d-b14c-446e-97d0-0fa7c53abaf3")
+	)
+	(junction
 		(at 173.99 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6434,6 +6585,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "810a5d3d-8cd0-49e5-9e5c-ce8210cee4ec")
+	)
+	(junction
+		(at 38.1 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86fd2bc0-fac2-42f0-8f29-a3c4b0bac5a9")
 	)
 	(junction
 		(at 212.09 132.08)
@@ -6959,16 +7116,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 38.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aae5134-7a8f-47a2-ac27-d525e85fef02")
-	)
-	(wire
-		(pts
 			(xy 194.31 157.48) (xy 194.31 160.02)
 		)
 		(stroke
@@ -7089,6 +7236,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 114.3) (xy 34.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1288d277-e04f-44bd-9872-aebaa675db18")
+	)
+	(wire
+		(pts
 			(xy 91.44 19.05) (xy 91.44 21.59)
 		)
 		(stroke
@@ -7159,6 +7316,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 109.22) (xy 38.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9ba571-9b43-48ff-ae2c-ff473c08c075")
+	)
+	(wire
+		(pts
 			(xy 134.62 123.19) (xy 134.62 121.92)
 		)
 		(stroke
@@ -7199,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 114.3) (xy 58.42 114.3)
+			(xy 45.72 114.3) (xy 48.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7959,6 +8126,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 114.3) (xy 48.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5347ba83-462c-47ac-bcf0-fd1d228291f5")
+	)
+	(wire
+		(pts
 			(xy 161.29 54.61) (xy 161.29 52.07)
 		)
 		(stroke
@@ -8119,6 +8296,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 114.3) (xy 34.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6228955b-fd71-4aa6-a2ec-034d0b985ac4")
+	)
+	(wire
+		(pts
 			(xy 180.34 72.39) (xy 184.15 72.39)
 		)
 		(stroke
@@ -8176,6 +8363,16 @@
 			(type default)
 		)
 		(uuid "65455f8b-1a4f-49cc-a0f1-6786ed9c4e9b")
+	)
+	(wire
+		(pts
+			(xy 48.26 123.19) (xy 48.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66073666-4cae-4b27-b860-e64cbbf98c72")
 	)
 	(wire
 		(pts
@@ -9149,6 +9346,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 114.3) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5701d65-d215-4eee-a9f5-629768c77f75")
+	)
+	(wire
+		(pts
 			(xy 78.74 101.6) (xy 81.28 101.6)
 		)
 		(stroke
@@ -9446,16 +9653,6 @@
 			(type default)
 		)
 		(uuid "d0e8e0d8-d313-4621-82f3-f2c7b766804c")
-	)
-	(wire
-		(pts
-			(xy 38.1 114.3) (xy 38.1 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d130123e-97c3-4ac3-add4-a0076cff1a96")
 	)
 	(wire
 		(pts
@@ -9959,7 +10156,7 @@
 	)
 	(text "BOOT1"
 		(exclude_from_sim no)
-		(at 39.37 140.97 0)
+		(at 52.07 140.97 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -11797,7 +11994,6 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 186.69 72.39 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11805,16 +12001,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000599da57e")
 		(property "Reference" "C27"
-			(at 189.23 71.755 0)
+			(at 186.69 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1n"
-			(at 184.15 71.755 0)
+			(at 185.42 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,17 +12044,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Vishay / Vitramon"
-			(at 124.46 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "VJ0402V104ZXJCW1BC"
-			(at 124.46 207.01 0)
+			(at 124.46 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14234,6 +14420,91 @@
 			(project "CC1200_Hat"
 				(path "/64f5051f-1b71-4f29-a149-913e6a95d2cf"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 40.64 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28c6bd17-8dec-4fe4-897b-846038823bdb")
+		(property "Reference" "SW1"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PROG"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "611-PTS636SM43JSMTRL"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS636SM43JSMTR LFS"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db48e7cf-9fae-43f4-b6d3-bf294ec76a02")
+		)
+		(pin "1"
+			(uuid "38459fc3-7242-4baa-806a-c1a3abe0150d")
+		)
+		(instances
+			(project ""
+				(path "/64f5051f-1b71-4f29-a149-913e6a95d2cf"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17425,70 +17696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ed6eb35-c83a-4346-9302-63b14ce42d49")
-		(property "Reference" "#PWR049"
-			(at 38.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4a65187-b9d3-4b0a-913d-99a01f6a9de4")
-		)
-		(instances
-			(project "CC1200_Hat"
-				(path "/64f5051f-1b71-4f29-a149-913e6a95d2cf"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 130.81 184.15 0)
 		(unit 1)
@@ -19141,7 +19348,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 43.18 114.3 90)
+		(at 48.26 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19149,7 +19356,7 @@
 		(dnp no)
 		(uuid "dac3a0ef-5be7-46ea-ab68-afa90cf06168")
 		(property "Reference" "R9"
-			(at 43.18 111.76 90)
+			(at 45.72 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19364,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 43.18 114.3 90)
+			(at 48.26 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19165,7 +19372,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 43.18 114.3 0)
+			(at 48.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19174,7 +19381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 114.3 0)
+			(at 48.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,7 +19390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 114.3 0)
+			(at 48.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,6 +19408,70 @@
 			(project "CC1200_Hat"
 				(path "/64f5051f-1b71-4f29-a149-913e6a95d2cf"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df6c497d-732a-48f3-8e8c-a5d6a9e4b6bb")
+		(property "Reference" "#PWR036"
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff180295-6611-4d66-b2c1-0a72027100df")
+		)
+		(instances
+			(project "CC1200_Hat"
+				(path "/64f5051f-1b71-4f29-a149-913e6a95d2cf"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
