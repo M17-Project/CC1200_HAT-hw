@@ -266,7 +266,7 @@
 				)
 			)
 		)
-		(property "MPN" "GJM1555C1H200FB01D"
+		(property "MPN" "C0402C120J5GACTU"
 			(at 316.9 -80.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -278,7 +278,7 @@
 				)
 			)
 		)
-		(property "PN" "81-GJM1555C1H200FB1D"
+		(property "PN" "80-C0402C120J5G"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4062,7 +4062,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4074,7 +4074,7 @@
 				)
 			)
 		)
-		(property "PN" "71-CRCW0402-10K-E3"
+		(property "PN" "603-RC0402FR-075K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4772,7 +4772,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4784,7 +4784,7 @@
 				)
 			)
 		)
-		(property "PN" "71-CRCW0402-10K-E3"
+		(property "PN" "603-RC0402FR-075K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6731,7 +6731,7 @@
 				)
 			)
 		)
-		(property "MPN" "APHHS1005SURCK"
+		(property "MPN" "APHHS1005QBC/D"
 			(at 414.2 262.64 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6743,7 +6743,7 @@
 				)
 			)
 		)
-		(property "PN" "604-APHHS1005SURCK"
+		(property "PN" "604-APHHS1005QBCD"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6992,7 +6992,7 @@
 				)
 			)
 		)
-		(property "MPN" "GJM1555C1H200FB01D"
+		(property "MPN" "C0402C120J5GACTU"
 			(at 86.1 322.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7004,7 +7004,7 @@
 				)
 			)
 		)
-		(property "PN" "81-GJM1555C1H200FB1D"
+		(property "PN" "80-C0402C120J5G"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14536,7 +14536,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C1H2R2BA6J"
+		(property "MPN" "GCM1555C1H2R2BA16J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14990,7 +14990,7 @@
 				)
 			)
 		)
-		(property "PN" "669-EB2532YA08-25T "
+		(property "PN" "669-EB2532YA08-25T"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15003,7 +15003,7 @@
 				)
 			)
 		)
-		(property "MPN" "EB2532YA08-25T "
+		(property "MPN" "EB2532YA08-25.000M TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16637,7 +16637,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA2B3X5R1A224MB"
+		(property "MPN" "CGA2B3X5R1A224M050BB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

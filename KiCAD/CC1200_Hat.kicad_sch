@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CC1200 RPi Zero Shield")
-		(date "7-02-2025")
+		(date "10-02-2025")
 		(rev "B")
 		(company "M17 Foundation")
 		(comment 1 "Wojciech SP5WWP, Mathis DB9MAT")
@@ -10630,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GJM1555C1H200FB01D"
+		(property "MPN" "C0402C120J5GACTU"
 			(at 292.1 195.58 0)
 			(effects
 				(font
@@ -10639,7 +10639,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "81-GJM1555C1H200FB1D"
+		(property "PN" "80-C0402C120J5G"
 			(at 292.1 195.58 0)
 			(effects
 				(font
@@ -10726,7 +10726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GJM1555C1H200FB01D"
+		(property "MPN" "C0402C120J5GACTU"
 			(at -35.56 195.58 0)
 			(effects
 				(font
@@ -10735,7 +10735,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "81-GJM1555C1H200FB1D"
+		(property "PN" "80-C0402C120J5G"
 			(at -35.56 195.58 0)
 			(effects
 				(font
@@ -11872,7 +11872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "APHHS1005SURCK"
+		(property "MPN" "APHHS1005QBC/D"
 			(at 434.34 340.36 0)
 			(effects
 				(font
@@ -11881,7 +11881,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "604-APHHS1005SURCK"
+		(property "PN" "604-APHHS1005QBCD"
 			(at 168.91 190.5 0)
 			(effects
 				(font
@@ -13184,7 +13184,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 313.69 176.53 0)
 			(effects
 				(font
@@ -13193,7 +13193,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "71-CRCW0402-10K-E3"
+		(property "PN" "603-RC0402FR-075K1L"
 			(at 215.9 121.92 0)
 			(effects
 				(font
@@ -13278,7 +13278,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "RC0402FR-075K1L"
 			(at 313.69 179.07 0)
 			(effects
 				(font
@@ -13287,7 +13287,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "71-CRCW0402-10K-E3"
+		(property "PN" "603-RC0402FR-075K1L"
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -14829,7 +14829,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA2B3X5R1A224MB"
+		(property "MPN" "CGA2B3X5R1A224M050BB"
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -16519,7 +16519,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "669-EB2532YA08-25T "
+		(property "PN" "669-EB2532YA08-25T"
 			(at 134.62 125.73 0)
 			(effects
 				(font
@@ -16528,7 +16528,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EB2532YA08-25T "
+		(property "MPN" "EB2532YA08-25.000M TR"
 			(at 134.62 125.73 0)
 			(effects
 				(font
@@ -19938,7 +19938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM1555C1H2R2BA6J"
+		(property "MPN" "GCM1555C1H2R2BA16J"
 			(at 157.48 80.01 0)
 			(effects
 				(font
